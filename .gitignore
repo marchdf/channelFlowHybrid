@@ -1,0 +1,7 @@
+*.exo
+*.cas
+*.log
+*.o*
+results
+restart
+naluX
