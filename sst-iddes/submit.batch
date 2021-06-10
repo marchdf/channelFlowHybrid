@@ -24,4 +24,4 @@ echo "Num. threads   = $OMP_NUM_THREADS"
 echo "Working dir    = $PWD"
 
 cp ${nalu_exec} $(pwd)/naluX
-srun -n ${mpi_ranks} -c 1 --cpu_bind=cores $(pwd)/naluX -i channel.yaml -o channel.log
+srun -n ${mpi_ranks} -c 1 --cpu_bind=cores $(pwd)/naluX -i channel.yaml -o channel-coarse.log
